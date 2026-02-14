@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sroozib Scholarships</title>
+
+    <!-- INTERNAL CSS -->
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: Arial, sans-serif;
+        }
+
+        body {
+            background-color: #f4f6f9;
+            color: #333;
+        }
+
+        /* Header */
+        header {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px 40px;
+            background-color: #0b3d91;
+        }
+
+        .logo-area {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+        }
+
+        .logo-area img {
+            width: 50px;
+            height: auto;
+        }
+
+        .logo-area h1 {
+            color: white;
+            font-size: 22px;
+        }
+
+        nav a {
+            color: white;
+            margin-left: 20px;
+            text-decoration: none;
+            font-weight: bold;
+        }
+
+        nav a:hover {
+            text-decoration: underline;
+        }
+
+        /* Hero Section */
+        .hero {
+            text-align: center;
+            padding: 80px 20px;
+            background: linear-gradient(to right, #0b3d91, #1e63c6);
+            color: white;
+        }
+
+        .hero h2 {
+            font-size: 36px;
+            margin-bottom: 15px;
+        }
+
+        .hero p {
+            font-size: 18px;
+            margin-bottom: 25px;
+        }
+
+        .btn {
+            background-color: white;
+            color: #0b3d91;
+            padding: 12px 25px;
+            text-decoration: none;
+            font-weight: bold;
+            border-radius: 5px;
+        }
+
+        /* Sections */
+        section {
+            padding: 60px 40px;
+            max-width: 900px;
+            margin: auto;
+        }
+
+        section h2 {
+            color: #0b3d91;
+            margin-bottom: 15px;
+        }
+
+        /* Form */
+        form {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+        }
+
+        input, textarea {
+            padding: 12px;
+            border-radius: 5px;
+            border: 1px solid #ccc;
+        }
+
+        textarea {
+            min-height: 120px;
+        }
+
+        button {
+            background-color: #0b3d91;
+            color: white;
+            border: none;
+            padding: 12px;
+            font-size: 16px;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+
+        button:hover {
+            background-color: #092f6f;
+        }
+
+        /* Footer */
+        footer {
+            background-color: #0b3d91;
+            color: white;
+            text-align: center;
+            padding: 20px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header>
+        <div class="logo-area">
+            <img src="logo.png" alt="Sroozib Scholarships Logo">
+            <h1>Sroozib Scholarships</h1>
+        </div>
+
+        <nav>
+            <a href="#about">About</a>
+            <a href="#apply">Apply</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <!-- Hero -->
+    <div class="hero">
+        <h2>Empowering Students Through Education</h2>
+        <p>Apply today for a brighter academic future.</p>
+        <a href="#apply" class="btn">Apply Now</a>
+    </div>
+
+    <!-- About -->
+    <section id="about">
+        <h2>About Us</h2>
+        <p>
+            Sroozib Scholarships supports talented students by providing
+            financial assistance to help them achieve their educational goals.
+        </p>
+    </section>
+
+    <!-- Application -->
+    <section id="apply">
+        <h2>Scholarship Application</h2>
+
+        <form>
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email Address" required>
+            <input type="text" placeholder="Institution" required>
+            <textarea placeholder="Why should you receive this scholarship?" required></textarea>
+            <button type="submit">Submit Application</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer id="contact">
+        <p>&copy; 2026 Sroozib Scholarships. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>

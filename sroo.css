@@ -1,0 +1,159 @@
+ {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: white;
+    color:black;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 40px;
+    background-color: blue;
+}
+
+.logo-area {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.logo-area img {
+    width: 50px;
+    height: auto;
+}
+
+.logo-area h1 {
+    color:white;
+    font-size: 22px;
+}
+
+nav a {
+    color:white;
+    margin-left: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.hero {
+    text-align: center;
+    padding: 80px 20px;
+    background: linear-gradient(to right, blue,aqua);
+    color:white;
+}
+
+.hero h2 {
+    font-size: 36px;
+    margin-bottom: 15px;
+}
+
+.hero p {
+    font-size: 18px;
+    margin-bottom: 25px;
+}
+
+.btn {
+    background-color:white;
+    color:blue;
+    padding: 12px 25px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.section {
+    padding: 60px 40px;
+    max-width: 900px;
+    margin: auto;
+}
+
+.section h2 {
+    margin-bottom: 15px;
+    color:blue;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form input,
+.form textarea {
+    padding: 12px;
+    border-radius: 5px;
+    border: 1px ;
+    color: white;
+}
+
+.form textarea {
+    min-height: 120px;
+}
+
+.form button {
+    background-color:blue;
+    color:white;
+    border: none;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.form button:hover {
+    background-color:blue;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color:blue;
+    color:white;
+}
+.contact {
+    padding: 60px 20px;
+    background: blue;
+    text-align: center;
+}
+
+.contact h2 {
+    margin-bottom: 25px;
+    font-size: 28px;
+}
+
+.contact-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 12px;
+    margin: 15px ;
+    font-size: 18px;
+}
+
+.contact-item i {
+    font-size: 22px;
+}
+
+.contact-item a {
+    color: white;
+    font-weight: 500;
+}
+
+.contact-item a:hover {
+    color:blue ;
+}
+.fa-whatsapp {
+    color: green;
+}
+
+.fa-envelope {
+    color: mediumblue;
+}
